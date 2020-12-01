@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--A label asking for the par followed by a select tag for the par of the course-->
+        <label>What is the par for the hole: </label>
+        <select name="Par" id="cboPar">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <!--A couple line breaks to make the page look a little nicer-->
+        <br>
+        <br>
+
+        <!--Label asking for users score followed by the text box to input it and the get score button to submit it-->
+        <label>Enter your score: </label>
+        <input type="text" id="txtScore" value="" size="2">
+        <input type="button" id="btnGetScore" value="Get Score">
+    </form>
+    <script src="scripts/parCalc.js"></script>
+</body>
+</html>
